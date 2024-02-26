@@ -13,7 +13,7 @@ require("lazy").setup({
         'nvim-telescope/telescope.nvim',
         tag = '0.1.1',
         dependencies = {'nvim-lua/plenary.nvim'}
-    }, {"morhetz/gruvbox"},
+    }, {"catppuccin/nvim", name = "catppuccin", priority = 1000},
 
     {'nvim-treesitter/nvim-treesitter'}, {'neovim/nvim-lspconfig'},
     {'hrsh7th/cmp-nvim-lsp'}, {'hrsh7th/cmp-buffer'}, {'hrsh7th/cmp-path'},
